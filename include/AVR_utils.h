@@ -1,4 +1,11 @@
-// AVR utils is a simple library that provides direct port manipulation macros for ease of use.
+/**
+ * @file AVR_utils.h
+ * @author Lukas Ternjej
+ *
+ * AVR utils is a simple library that provides direct port manipulation macros for ease of use.
+ *
+ * @date 2024-03-06
+ */
 
 #ifndef AVR_UTILS_H_
 #define AVR_UTILS_H_

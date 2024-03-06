@@ -1,5 +1,6 @@
-/*
- * ATmega LED.cpp
+/**
+ * @file ATmega32_led.cpp
+ * @author Lukas Ternjej
  *
  * This simple example shows how to use AVR utils macros for direct port manipulation.
  *
@@ -8,6 +9,7 @@
  * Button is connected from PORTA0 to GND.
  *
  * LED will light up when button is pressed.
+ * @date 2024-03-06
  */
 
 // default library
@@ -44,11 +46,9 @@ int main(void)
     init();
 
     while(1)
-    {
         if(readPin(BUTTON_PINx, BUTTON_PORTxn) == LOW)     // if button is pressed turn on LED
             setPin(LED_PORTx, LED_PORTxn, HIGH);
         else
             setPin(LED_PORTx, LED_PORTxn, LOW);            // else turn off LED
-    }
     return 0;
 }
