@@ -1,8 +1,8 @@
 {
     "name": "AVR_utils",
-    "version": "1.0.0",
-    "description": "AVR utils is a simple library that provides direct port manipulation macros for ease of use.",
-    "keywords": "avr, register, macro",
+    "version": "1.0.1",
+    "description": "AVR_utils is a simple library that provides direct port manipulation macros for ease of use with Microchip AVR 8-bit microcontrollers.",
+    "keywords": "avr, register, macro, port",
     "repository": {
         "type": "git",
         "url": "https://github.com/PlatformIO-AVR-libraries/AVR_utils.git"

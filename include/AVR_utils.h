@@ -10,10 +10,6 @@
 #ifndef AVR_UTILS_H_
 #define AVR_UTILS_H_
 
-// added for convenience when turning on or off a pin
-#define HIGH true
-#define LOW  false
-
 // port manipulation
 #define setPin(PORTx, PORTxn, state) (state == true) ? (PORTx |= (1 << PORTxn)) : (PORTx &= ~(1 << PORTxn))
 #define readPin(PINx, PORTxn)        (PINx & (1 << PORTxn)) >> PORTxn
