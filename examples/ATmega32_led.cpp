@@ -46,9 +46,11 @@ int main(void)
     init();
 
     while(1)
+    {
         if(readPin(BUTTON_PINx, BUTTON_PORTxn) == LOW)     // if button is pressed turn on LED
             setPin(LED_PORTx, LED_PORTxn, HIGH);
         else
             setPin(LED_PORTx, LED_PORTxn, LOW);            // else turn off LED
+    }
     return 0;
 }
