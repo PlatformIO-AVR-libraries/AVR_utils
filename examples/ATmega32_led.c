@@ -1,5 +1,5 @@
 /**
- * @file ATmega32_led.cpp
+ * @file ATmega32_led.c
  * @author Lukas Ternjej
  *
  * This simple example shows how to use AVR utils macros for direct port manipulation.
