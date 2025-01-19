@@ -4,7 +4,7 @@
  *
  * AVR utils is a simple library that provides direct port manipulation macros for ease of use.
  *
- * @date 2024-03-10
+ * @date 2025-01-19
  */
 
 #ifndef AVR_UTILS_H_
