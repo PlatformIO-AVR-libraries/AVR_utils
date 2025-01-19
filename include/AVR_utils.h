@@ -10,6 +10,8 @@
 #ifndef AVR_UTILS_H_
 #define AVR_UTILS_H_
 
+#include <stdbool.h>
+
 // port manipulation
 #define setPin(PORTx, PORTxn, state) (state == true) ? (PORTx |= (1 << PORTxn)) : (PORTx &= ~(1 << PORTxn))
 #define readPin(PINx, PORTxn)        (PINx & (1 << PORTxn)) >> PORTxn
